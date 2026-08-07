@@ -11,12 +11,15 @@ function corps(entreprise, config) {
   const nom = config.nomCandidat || "[Ton prénom NOM]";
   const tel = config.telephoneCandidat || "[ton téléphone]";
   const email = config.emailCandidat || "[ton email]";
+  const ou = entreprise.ville ? ` à ${entreprise.ville}` : "";
 
   return `Bonjour,
 
-Actuellement en formation Technicien Systèmes Réseaux et Sécurité en alternance avec l'ISCOD, je recherche une entreprise pour m'accueillir dans le cadre de mon contrat d'alternance.
+Actuellement en formation certifiante Technicien Systèmes Réseaux et Sécurité avec l'ISCOD (2025-2027), je recherche une entreprise${ou} pour poursuivre mon alternance : je suis en cours de réinstallation au Pays Basque et souhaite y ancrer la suite de mon parcours.
 
-Votre activité${entreprise.ville ? ` à ${entreprise.ville}` : ""} correspond au type de structure où je souhaite mettre en pratique mes compétences : administration systèmes et réseaux, sécurité informatique, support technique. Je suis disponible pour un entretien à votre convenance afin de vous présenter mon parcours et ma motivation.
+Depuis avril 2025, j'occupe un poste de technicien support logiciel en alternance (résolution d'incidents N1/N2 à distance, ticketing, accompagnement des utilisateurs, configuration d'un chatbot IA), complété par une mission terrain chez Château La Coste (déploiement, diagnostic hardware, brassage, maintien en condition opérationnelle) et un projet personnel de gestion logistique (base de données, intégration d'API, automatisation). Je maîtrise Windows/macOS, Active Directory, Microsoft 365, le déploiement et diagnostic matériel.
+
+Votre activité correspond au type de structure où je souhaite continuer à progresser en systèmes, réseaux et sécurité. Je suis disponible pour un entretien à votre convenance afin de vous présenter mon parcours plus en détail.
 
 Vous trouverez mon CV en pièce jointe. Je reste à votre disposition pour toute information complémentaire.
 
@@ -26,9 +29,9 @@ ${tel}
 ${email}
 
 --
-[RELECTURE REQUISE avant envoi : personnalise ce message avec un detail concret sur
-${entreprise.nom} (un projet, un service, une actualite) - une lettre generique part
-moins bien qu'une lettre qui montre que tu connais l'entreprise.]`;
+[RELECTURE REQUISE avant envoi : ajoute un detail concret sur ${entreprise.nom}
+(un projet, un service, une actualite) - une lettre qui montre que tu connais
+l'entreprise part toujours mieux qu'une lettre generique.]`;
 }
 
 export function genererBrouillon(entreprise, config) {
