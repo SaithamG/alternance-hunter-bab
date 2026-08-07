@@ -1,0 +1,22 @@
+{
+  "name": "alternance-hunter-bab",
+  "version": "1.0.0",
+  "description": "Repere les entreprises IT/reseaux/securite autour de Bayonne-Anglet-Biarritz-Cambo susceptibles d'accueillir une alternance, et prepare des candidatures personnalisees a valider avant envoi.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "discover": "node --env-file-if-exists=.env src/index.js discover",
+    "draft": "node --env-file-if-exists=.env src/index.js draft",
+    "list": "node --env-file-if-exists=.env src/index.js list",
+    "approve": "node --env-file-if-exists=.env src/index.js approve",
+    "reject": "node --env-file-if-exists=.env src/index.js reject",
+    "send": "node --env-file-if-exists=.env src/index.js send"
+  },
+  "engines": {
+    "node": ">=20.6"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.14"
+  },
+  "license": "MIT"
+}

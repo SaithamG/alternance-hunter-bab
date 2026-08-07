@@ -1,0 +1,8 @@
+node_modules/
+.env
+
+# Donnees personnelles : CV, entreprises trouvees, brouillons de lettres.
+# Ne doivent pas se retrouver dans l'historique git meme si le repo est prive.
+data/cv.*
+data/entreprises.json
+data/brouillons/
