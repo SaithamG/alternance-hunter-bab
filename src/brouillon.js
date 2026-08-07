@@ -17,7 +17,7 @@ function corps(entreprise, config) {
 
 Actuellement en formation certifiante Technicien Systèmes Réseaux et Sécurité avec l'ISCOD (2025-2027), je recherche une entreprise${ou} pour poursuivre mon alternance : je suis en cours de réinstallation au Pays Basque et souhaite y ancrer la suite de mon parcours.
 
-Depuis avril 2025, j'occupe un poste de technicien support logiciel en alternance (résolution d'incidents N1/N2 à distance, ticketing, accompagnement des utilisateurs, configuration d'un chatbot IA), complété par une mission terrain en régie pour un domaine viticole et hôtelier (déploiement, diagnostic hardware, brassage, maintien en condition opérationnelle) et un projet personnel de gestion logistique (base de données, intégration d'API, automatisation). Je maîtrise Windows/macOS, Active Directory, Microsoft 365, le déploiement et diagnostic matériel.
+Depuis avril 2025, j'occupe un poste de technicien support logiciel en alternance (résolution d'incidents N1/N2 à distance, ticketing, accompagnement des utilisateurs, configuration d'un chatbot IA), complété par une mission terrain chez Château La Coste (déploiement, diagnostic hardware, brassage, maintien en condition opérationnelle) et un projet personnel de gestion logistique (base de données, intégration d'API, automatisation). Je maîtrise Windows/macOS, Active Directory, Microsoft 365, le déploiement et diagnostic matériel.
 
 Votre activité correspond au type de structure où je souhaite continuer à progresser en systèmes, réseaux et sécurité. Je suis disponible pour un entretien à votre convenance afin de vous présenter mon parcours plus en détail.
 
